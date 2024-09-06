@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basavanagudi Police Station <-> KR Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .head_ {
+            max-width: 100%;
+        }
+
+        .card-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 1rem;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        #busList {
+            margin-bottom: 2rem;
+        }
+
+        #busSearch {
+            height: 3.5rem;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="mb-2 head_ row align-items-center">
+            <div class="col-3 text-start">
+                <a href="javascript:history.back()" class="btn btn-outline-primary">&larr; Back</a>
+            </div>
+            <div class="col-9">
+                <h1 class="text-center" style="color: #bf2ce8;">Basavanagudi &#8644; KR Market</h1>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" id="busSearch" placeholder="Search for a bus number">
+        </div>
+
+        <div class="row row-cols-4 row-cols-md-6 row-cols-lg-8 g-2" id="busList">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">1A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">1F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">10A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15G</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15K</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">15L</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">16</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">28</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">30</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">31</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">31A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">31B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">31E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">177</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">177D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">178</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210AA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210CB</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210CF</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210EA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210HB</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210KA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210M</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210N</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210NA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210NB</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210ND</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210NF</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210P</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210R</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210U</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210W</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210WA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210X</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210Z</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">210ZA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211AA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211DA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211G</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211K</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211L</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211M</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211N</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211P</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211Q</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211R</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211RA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211T</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">211U</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">212</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">212B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">212C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">212D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">212F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213DA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213FA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213G</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213K</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213L</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213M</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213N</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213P</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213Q</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213QA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213R</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213T</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213V</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">213Z</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214DA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214G</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">214L</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215BA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215K</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215N</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215NA</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215NB</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215NC</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215P</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215R</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215T</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215X</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">215Z</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">216</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">216A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">216B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217C</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217D</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">217F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">219</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">219A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">224E</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">262A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">276N</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">279F</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">279J</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">300R</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">367B</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">402G</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">AS18</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">AS19</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">G5</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">KBS5H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">MKT5H</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">V210A</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">V210NB</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            document.getElementById('busSearch').addEventListener('input', function () {
+                var searchTerm = this.value.trim().toLowerCase();
+                var busItems = document.getElementById('busList').getElementsByClassName('col');
+
+                for (var i = 0; i < busItems.length; i++) {
+                    var busText = busItems[i].textContent.trim().toLowerCase();
+                    if (busText.startsWith(searchTerm)) {
+                        busItems[i].style.display = '';
+                    } else {
+                        busItems[i].style.display = 'none';
+                    }
+                }
+            });
+        </script>
+</body>
+
+</html>
